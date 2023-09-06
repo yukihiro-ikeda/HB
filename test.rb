@@ -5,7 +5,7 @@ class Player
   end
 end
 
-class Start
+class HB
   def self.start
     player = Player.new
     next_game = true
@@ -24,4 +24,4 @@ class Start
   end
 end
 
-Start.start
+HB.start
