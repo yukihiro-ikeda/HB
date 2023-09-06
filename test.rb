@@ -1,4 +1,4 @@
-class Split
+class Player
   def number_split
     num = gets.chomp
     a = num.chars
@@ -7,11 +7,12 @@ end
 
 class Start
   def self.start
-    split = Split.new
+    player = Player.new
     next_game = true
     while next_game == true
-      player_number = split.number_split
+      player_number = player.number_split
       enemy = rand(999).to_s.chars
+      # binding.irb
       if player_number[0] == enemy[0]
         puts "1Hit"
         next_game = false
