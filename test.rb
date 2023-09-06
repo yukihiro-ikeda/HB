@@ -25,3 +25,6 @@ class HB
 end
 
 HB.start
+
+# me = -> (y) {y * 3}
+# me[4]
