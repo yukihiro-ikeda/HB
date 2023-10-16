@@ -1,8 +1,8 @@
 def style
   com = [*"0".."9"].sample(3)
-  while 
+  puts "3ケタの数字を入力して下さい"
+  while
     io = gets.chomp.chars
-
     hit_tmp = []
     blow_tmp = []
     for i in 0..2 do
@@ -19,6 +19,7 @@ def style
       break
     else
       puts "#{hit_tmp.length}hit,#{blow_tmp.length}blow"
+      puts "3ケタの数字を入力して下さい"
       # p com
     # binding.irb
     end
