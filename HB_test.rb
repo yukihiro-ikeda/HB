@@ -94,7 +94,7 @@ HB.start
 # me = -> (y) {y * 3}
 # me[4]
 
-# /*参照コード*/
+# /*参照コード*start/
 # module Hit_and_Blow
 #   module_function
   
@@ -136,3 +136,4 @@ HB.start
 # end
 
 # Hit_and_Blow.play
+# /*参照コード*end/
